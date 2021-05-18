@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Table</title
+</head>
+<body>
+<h1>Table</h1>
+<table border="2" width="400" height="300">
+
+
+   <tr>
+<td>A computer is a programmable electronic device that accepts raw data as input and
+ processes it with a set of instructions (a program) to produce the result as output.
+ It renders output just after performing mathematical and logical operations and can
+ save the output for future use. It
+ can process numerical as well as non-numerical calculations. The term "computer" is 
+ derived from the Latin word "computare" which means to calculate.</td>
+<td><img src="blue wood.jpg"/ height="300" width="400"></td>
+<td><ol type="1">
+<li>Hardware of Computer</li>
+<ul>
+<li> Motherboard</li>
+<li>CPU </li>
+<li> RAM</li>
+<li> Hard Drive</li>
+<li> Graphics Processing Unit</li>
+</td>
+   </tr>
+
+   <tr>
+<td><img src="001.jpg"/ height="300" width="400"></td>
+<td><video  width="400" height="300" controls><source src="doremon.mp4" type="video/mp4"></video></td>
+<td><audio controls ><source src="bheem.mp3" type="audio/mp3"></audio></td>
+   </tr>
+
+   <tr>
+<td><a href="https://www.youtube.com/"/>Youtube</a></td>
+<td><audio controls><source src="scam.mp3" type="audio/mp3"></td>
+<td><video  width="400" height="300" controls><source src="doremon.mp4" type="video/mp4"></video> </td>
+   </tr>
+   
+</table>
+</body>
+</html>
