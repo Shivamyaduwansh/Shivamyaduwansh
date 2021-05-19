@@ -1,0 +1,96 @@
+<html>
+
+   <head>
+   
+     <title> Ragistration form </title>
+	                                       <style type="text/css">
+										    h1 {
+											    text-shadow:2px 2px 2px red;
+												color:rgb(123,190,210);
+ 											    
+											   }
+										   </style>
+       </head>
+	   
+           <center>
+		   
+      <font color="red" face="arial"> <h1>Ragistration Form</h1><br></font>
+	   
+     <body bgcolor="33FFE0">
+	 
+   <form>
+   
+<table border="5" height="600" width="500" cellpadding="20" bgcolor="#D5DBDB ">
+
+
+
+
+<tr>
+<td>Name</td>
+<td><input type="text" size="30" name="n1"/></td>
+</tr>
+
+         <tr>
+         <td>Father Name</td>
+         <td><input type="text" size="30" name="n2"/></td>
+         </tr>
+
+                  <tr>
+                  <td>Password</td>
+                  <td><input type="password" size="30" name="p1"/></td>
+                  </tr>
+
+                          <tr>
+                          <td>Gender</td>
+                          <td><input type="radio" value="male" name="g1"/>  Male  <input type="radio" value="female" name="g1"/>  Femal 
+						      <input type="radio" value="other" name="g1"/>Other</td>
+                          </tr>
+
+                                   <tr>
+                                   <td>Hobbies</td>
+                                   <td><input type="checkbox" value="cricket" name="c1"/>  Cricket  <input type="checkbox" value="dance" name="c2"/> Dance
+								       <input type="checkbox" value="kuking" name="c3"/>  Kuking    <input type="checkbox" value="others" name="c4"/>Other</td>
+                                   </tr>
+
+
+                                            <tr>
+                                            <td>City</td>
+                                            <td><select><option>Agra</option>
+											            <option>Amla</option>
+														<option selected="">Bhopal</option>
+														<option>Chhindawara</option>
+														<option>Parasia</option>
+														<option>Ujjain</option>
+														<option>Vadodara</option></td>
+                                            </tr>
+
+                                   <tr>
+                                   <td>Country</td>
+                                   <td><select><option>Afghanistan</option>
+											   <option>Albania</option>
+										       <option selected="">India</option>
+											   <option>Brazil</option>
+											   <option>Canada</option>
+											   <option>Gambia</option>
+											   <option>Nepal</option></select></td>
+                                   </tr>
+
+                           <tr>
+                           <td>College Name</td>
+                           <td><input type="text" size="30" name="n3"/></td>
+                           </tr>
+
+               <tr>
+               <td>Choose file</td>
+               <td><input type="file" name="f1"/><br>
+			       <input type="submit" value="upload"/></td>
+               </tr>
+
+
+       </table><br/>
+	   
+	   <input type="submit" value="Submit"/>
+</form>
+</center>
+</body>
+</html>
