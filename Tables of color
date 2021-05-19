@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Color table</title>
+</head>
+
+<body>
+<center><h1>Number 1</h1>
+<table border="1" width="300" height="200">
+  <tr>
+<td colspan="3" bgcolor="blue"></td>
+
+  </tr>
+  
+   <tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+   </tr>
+  
+</table><br>
+<h1>Number 2</h1>
+<table border="1" width="300" height="200">
+
+    <tr>
+<td rowspan="2" bgcolor="red"></></td>
+<td rowspan="2" colspan ="2" bgcolor="green"></></td>
+<td rowspan="2" bgcolor="blue"></></td>
+
+    </tr>
+
+<tr>
+
+</tr>
+
+    <tr>
+<td colspan="2" bgcolor="pink"></td>
+
+<td colspan="2" bgcolor="yellow"></td>
+
+    </tr>
+
+</table><br>
+
+<h1>Number 3</h1>
+<table border="1" width="300" height="200" cellspacing="0" cellpadding="20">
+
+<tr>
+<th></th>
+<th>Name</th>
+<th>Roll no.</th>
+<th>City</th>
+<th>Address</th>
+</tr>
+
+<tr>
+<th>Marks 1 </th>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+</tr>
+
+<tr>
+
+<th>Marks 2 </th>
+
+</tr>
+<tr>
+<th>Marks 3 </th>
+
+</tr>
+</table><br>
+<h1>Number 4</h1>
+<table border="1" width="300" height="200">
+<tr>
+<td rowspan ="2"></td>
+<td bgcolor="yellow"</td>
+</tr>
+<tr>
+<td rowspan ="2" </td>
+</tr>
+<tr>
+<td rowspan="1"></td>
+</tr></center>
+
+</table>
+</body>
+</html>
