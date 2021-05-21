@@ -1,0 +1,114 @@
+<html>
+ <head>
+  <title> Box </title>
+  
+<style>
+ #d1{
+    width:100px;
+	height:60px;
+    border:20px solid blue;
+	text-align:center;
+	margin:110px;
+	padding-top:30px;
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+	
+	border-right-width:10px;
+	border-left-width:10px;
+    }
+	
+                            #d2 {
+                                 width:110px;
+	                             height:70px;
+                                 border:10px solid pink;
+                               	 text-align:center;
+	                             margin:110px;
+	                             padding-top:40px;
+	                             color:blue;
+	                             font-size:20px;
+	                             font-weight:bold;
+  
+                                 border-style:dotted;
+                                 }
+	  
+	  #d3{
+	       width:110px;
+	height:70px;
+    border:5px solid black;
+	text-align:center;
+	margin:110px;
+	padding-top:40px;
+	color:pink;
+	font-size:20px;
+	font-weight:bold;
+  
+    border-style:dashed;
+	     }
+		 
+		                         #d4{
+		                             width:110px;
+	                                 height:70px;
+                                     border:60px solid green;
+	                                 text-align:center;
+	                                 margin:110px;
+	                                 padding-top:40px;
+	                                 color:black;
+	                                 font-size:20px;
+	                                 font-weight:bold;
+  
+                                     border-style:ridge;
+									 border-top-color:black;
+									 border-right-color:pink;
+									 border-left-color:red;
+									 border-bottom-color:blue;
+		                             }
+		 #d5{
+		  width:110px;
+	height:70px;
+    border:30px solid red;
+	text-align:center;
+	margin:110px;
+	padding-top:40px;
+	color:orange;
+	font-size:20px;
+	font-weight:bold;
+  
+    border-style:inset;
+    }
+	                                #d6{
+	                                     width:110px;
+	                                     height:70px;
+                                         border:30px solid purple;
+                                       	 text-align:center;
+	                                     margin:110px;
+	                                     padding-top:40px;
+	                                     color:green;
+	                                     font-size:20px;
+	                                     font-weight:bold;
+  
+                                         border-style:double;
+	                                    }
+		 
+</style>
+
+        </head>
+		
+               <body>
+			   
+                     <div id="d1">Sing in.</div>
+					 
+                           <div id="d2">Sing up.</div>
+											   
+                                 <div id="d3">Sing in.</div>
+																		  
+                                 <div id="d4">Sing in.</div>
+											   
+                           <div id="d5">Sing in.</div>
+						   
+					 <div id="d6">Sing in.</div>
+					 
+               </body>
+			   
+			   
+        </html>
