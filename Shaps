@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Shaps</title>
+   <style>
+   #square {
+            width:200px;
+			height:200px;
+			background:linear-gradient(to right,#ff3300 10%,#ffff11 100%)
+           }
+		   
+   #rectangle {
+            width:300px;
+			height:200px;
+			background-color:blue;
+           }
+		   
+   #circle {
+            width:200px;
+			height:200px;
+			border-radius:60%;
+			background-color:red;
+           }
+		   
+	#triangle-up {
+	            width: 0px;
+         height: 0px;
+         border-left: 150px solid transparent;
+         border-right: 150px solid transparent;
+         border-bottom: 150px solid green;
+		 
+	          }
+			  
+		   
+  
+  #st {
+         width: 0px;
+         height: 0px;
+         border-left: 150px solid transparent;
+         border-right: 150px solid transparent;
+         border-bottom: 150px solid orange;
+         position: absolute;
+         }
+#st:after {
+                width: 0px;
+                height: 0px;
+                border-left: 150px solid transparent;
+                border-right: 150px solid transparent;
+               border-top: 150px solid orange;
+               position: absolute;
+               top: 40px;
+               content: " ";
+               left: -150px;
+               }
+			   
+  #h {
+       width: 100px;
+       height: 100px;
+       position: relative;
+      }
+#h:before,#h:after { 
+                                 width: 50px;
+                                 height: 80px;
+                                 background: linear-gradient(to right, pink 10%, red 90%);
+                                 transform:rotate(50deg);
+                                 transform-origin: 10% 100%;
+                                 transform:radius: 90px 90px 0 0;
+								 border-radius: 50px 50px 0 0;
+                                 position: absolute;
+                                 top: 150px;
+                                 content: " ";
+                                 left: 65px;    
+                                 }
+#h:after {
+                transform: rotate(-41deg);
+                transform-origin: 100% 100%;
+                left: 87;
+                }
+
+   </style>
+</head>
+<body>
+
+
+<table>
+
+<tr>
+<td><div id="square"></div></td></br>
+</tr>
+
+<tr>
+<td></td>
+ <td> <div id="rectangle"></div></td></br>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+  <td>  <div id="circle"></div></td></br>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+     <td> <div id="triangle-up"></div></td></br>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+        <td> <div id="st"></div></td></br>
+</tr>
+
+  <tr>
+  <td></td>
+  <td></td>
+       <td> <div id="h"></div></td></br>
+</tr>
+<tr>	   
+		   <div></div></br>
+		   </tr>
+		   </table>
+
+</body>
+</html>
